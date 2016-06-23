@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C++ Express 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoQuery", "VideoQuery\VideoQuery.vcxproj", "{E7C93D0D-E6C2-46B5-A09A-DCB392020442}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoSemanticsExtractor", "VideoSemanticsExtractor\VideoSemanticsExtractor.vcxproj", "{6549C694-C692-4B21-A8FF-932A80DBA9DF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WavReader", "WavReader\WavReader.vcxproj", "{CA89183E-8CE0-475D-B131-652FCFAD6DFE}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoPlayer", "VideoPlayer\VideoPlayer.vcxproj", "{099EFF75-8B2F-4391-8A13-CC62B439F1C4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoPlayerWin", "VideoPlayerWin\VideoPlayerWin.vcxproj", "{0F94A0B6-1C1E-406E-BA4F-7C26B15A7AF1}"
 EndProject
@@ -19,10 +15,6 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E7C93D0D-E6C2-46B5-A09A-DCB392020442}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E7C93D0D-E6C2-46B5-A09A-DCB392020442}.Debug|Win32.Build.0 = Debug|Win32
-		{E7C93D0D-E6C2-46B5-A09A-DCB392020442}.Release|Win32.ActiveCfg = Release|Win32
-		{E7C93D0D-E6C2-46B5-A09A-DCB392020442}.Release|Win32.Build.0 = Release|Win32
 		{6549C694-C692-4B21-A8FF-932A80DBA9DF}.Debug|Win32.ActiveCfg = Debug|Win32
 		{6549C694-C692-4B21-A8FF-932A80DBA9DF}.Debug|Win32.Build.0 = Debug|Win32
 		{6549C694-C692-4B21-A8FF-932A80DBA9DF}.Release|Win32.ActiveCfg = Release|Win32
@@ -31,10 +23,6 @@ Global
 		{CA89183E-8CE0-475D-B131-652FCFAD6DFE}.Debug|Win32.Build.0 = Debug|Win32
 		{CA89183E-8CE0-475D-B131-652FCFAD6DFE}.Release|Win32.ActiveCfg = Release|Win32
 		{CA89183E-8CE0-475D-B131-652FCFAD6DFE}.Release|Win32.Build.0 = Release|Win32
-		{099EFF75-8B2F-4391-8A13-CC62B439F1C4}.Debug|Win32.ActiveCfg = Debug|Win32
-		{099EFF75-8B2F-4391-8A13-CC62B439F1C4}.Debug|Win32.Build.0 = Debug|Win32
-		{099EFF75-8B2F-4391-8A13-CC62B439F1C4}.Release|Win32.ActiveCfg = Release|Win32
-		{099EFF75-8B2F-4391-8A13-CC62B439F1C4}.Release|Win32.Build.0 = Release|Win32
 		{0F94A0B6-1C1E-406E-BA4F-7C26B15A7AF1}.Debug|Win32.ActiveCfg = Debug|Win32
 		{0F94A0B6-1C1E-406E-BA4F-7C26B15A7AF1}.Debug|Win32.Build.0 = Debug|Win32
 		{0F94A0B6-1C1E-406E-BA4F-7C26B15A7AF1}.Release|Win32.ActiveCfg = Release|Win32
