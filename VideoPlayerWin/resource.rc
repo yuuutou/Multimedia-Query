@@ -1,0 +1,156 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROGRESS DIALOG DISCARDABLE  0, 0, 239, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Extracting..."
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_LINE1,27,42,184,14,ES_AUTOHSCROLL | WS_DISABLED | 
+                    NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOG DISCARDABLE  0, 0, 519, 252
+STYLE WS_CAPTION | WS_SYSMENU
+CAPTION "VideoQuery"
+FONT 12, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Play",IDC_BUTTON_PLAY,44,215,50,14
+    PUSHBUTTON      "Exit",IDC_BUTTON_EXIT,430,215,50,14
+    PUSHBUTTON      "Pause",IDC_BUTTON_PAUSE,127,215,50,14
+    CONTROL         "",IDC_PIC,"Static",SS_GRAYFRAME,34,68,158,116
+    GROUPBOX        "Query Video",IDC_STATIC,17,11,194,228
+    LTEXT           "Query Path",IDC_STATIC,28,33,41,8
+    EDITTEXT        IDC_QUERYPATH,72,31,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "QUERY",IDC_BUTTON1,130,31,50,14
+    GROUPBOX        "Results",IDC_STATIC,218,11,287,228
+    CONTROL         "",IDC_PIC2,"Static",SS_GRAYFRAME,238,68,158,116
+    PUSHBUTTON      "Play",IDC_BUTTON_PLAY2,254,215,50,14
+    PUSHBUTTON      "Pause",IDC_BUTTON_PAUSE2,332,215,50,14
+    CONTROL         "",IDC_SIM,"Static",SS_GRAYFRAME,238,31,158,27
+    LISTBOX         IDC_LIST,415,32,76,152,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 512
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 245
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
